@@ -1,0 +1,41 @@
+/*
+---------------------------------------------------
+Media Query To Fix Some Issues In Responsive Design
+---------------------------------------------------
+*/
+
+/* Smart Phone And Tablet */
+@media (max-width:768px)
+{
+    .home{text-align: center;}
+    .home img {width: 200px;height: 200px;}
+    .about button:first-of-type {margin-bottom: 50px;}
+    .portfolio .links a{font-size: 12px;}
+}
+
+/* Small Screen */
+@media (min-width:768px) and (max-width:795px)
+{
+    .home{text-align: center;}
+    .home img {width: 300px;height: 300px;margin-left: 180px;}
+    .home .title{width: 600px;}
+}
+
+@media (min-width:795px) and (max-width:990px)
+{
+    .home{text-align: center;}
+    .home img {width: 300px;height: 300px;margin-left: 180px;}
+    .home .title{width: 600px;}
+}
+
+/* Medium Screen */
+@media (min-width:991px) and (max-width:1199px)
+{
+    .portfolio .links a:first-of-type{display: block;}
+}
+
+/*
+---------------------------------------------------
+Media Query To Fix Some Issues In Responsive Design
+---------------------------------------------------
+*/
